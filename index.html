@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FXTrading.com - Forex Trading</title>
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; background: #0f172a; color: #e2e8f0; }
+        header { background: linear-gradient(135deg, #1e3a8a, #3b82f6); padding: 1rem 0; position: sticky; top:0; z-index:100; }
+        nav { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 0 2rem; }
+        .logo { font-size: 2.2rem; font-weight: bold; }
+        .hero { text-align: center; padding: 120px 20px; background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://source.unsplash.com/random/1920x1080/?finance') center/cover; }
+        .btn { padding: 14px 32px; font-size: 1.1rem; border: none; border-radius: 8px; cursor: pointer; margin: 10px; }
+        .btn-primary { background: #3b82f6; color: white; }
+        .btn-success { background: #22c55e; color: white; }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">FXTrading</div>
+            <div>
+                <a href="login.php"><button class="btn btn-primary">Login</button></a>
+                <a href="register.php"><button class="btn btn-success">Register</button></a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1 style="font-size: 3.8rem; margin-bottom: 20px;">Trade Forex Like a Pro</h1>
+        <p style="font-size: 1.6rem; margin-bottom: 40px;">Instant Deposits • Secure Platform • Admin-Only Withdrawals</p>
+        <a href="register.php"><button class="btn btn-success" style="font-size:1.4rem; padding:20px 50px;">Start Trading Now</button></a>
+    </section>
+</body>
+</html>
